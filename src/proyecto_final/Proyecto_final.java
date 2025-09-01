@@ -19,6 +19,8 @@ public class Proyecto_final {
         compra2=lectura.nextDouble();
         System.out.println("Ingresa valor compra 3: ");
         compra3=lectura.nextDouble();
+        //Primer linea de verificacion
+        System.out.println("VERIFICANDO SI SE ACTUALIZA EL REPOSITORIO DE GITHUB");        
         //Procesando datos
         compra_total=compra1+compra2+compra3;
         promedio=compra_total/3;
